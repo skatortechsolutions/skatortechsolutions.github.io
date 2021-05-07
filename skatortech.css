@@ -55,7 +55,7 @@ body {margin: 0%;}
 .image-2 {height: 120px;width: auto;margin-top: 200px;margin-right: 115px;margin-left: 215px;float: right;position: absolute;transform: scale(1); transition: 0.3s;}
 .image-2:hover{transform: scale(1.3);}
 /* styel footer  */
-.foot-er {background-color: rgb(175, 172, 172);bottom: 0px;margin-top: 549px;height: 100px;}
+.foot-er {background-color: rgb(175, 172, 172);bottom: 0px;margin-top: 530px;height: 100px;}
 
 /* style text in footer c skator tech solution reserved */
 #text {margin-top: 40px;margin-left: 200px;position: absolute;font-size: 30px;font-family: 'Courier New', Courier, monospace;color: rgb(255, 255, 255);font-weight: 600;}
