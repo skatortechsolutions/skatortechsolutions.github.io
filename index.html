@@ -1,101 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="skatortech.css">
+    <link rel="stylesheet" href="style.css">
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home- Skator Tech</title>
+    <script src="https://kit.fontawesome.com/0f060bf8c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <style>
-   @media (max-width: 400px) {
-       .container {
-           height: 1397px;
-           width: 359x;
-           margin: 0px;
-       } 
-       .header-logo {
-           float: none;
-           margin-left: 0px;
-           position:inherit;
-          margin-top: 0px;
-        }
-        .image-1 {
-            display: none;
-        }
-        .image-2 {
-            display: none;
-        }
-        
-        .foot-er {
-            margin-top: 450px;
-            height: 80px;
-            text-align: center;
-        }
-        #text {
-            margin-top: 0px;
-            margin-left: 0px;
-            font-size: 20px;
-        }
-       .video-1 {
-           margin-left: 12px;
-            
-    }
-       @media (max-width:400px) {
-           .video-2 {
-            margin-top: 0px;
-            margin-left: 12px;
-        }
-        .video-3 {
-            margin-top: 0px;
-            margin-left: 12px; 
-        }
-        .video-4 {
-            margin-top: 0px;
-            margin-left: 12px; 
-        }
-       }
-        @media (max-width:400px) {
-            .shape12 {
-                width: calc(865px*0.4);
+       
+            @media (max-width: 400px) {
+            .logo {
+                padding-left: 100px;
+                height: 158px;   
             }
-            .link-text {
+            #article {
+                letter-spacing: 10px; 
+            }
+            #video {
+                letter-spacing: 10px; 
+            }
+            #hom {
+                border-bottom: none ;
+            }
+            .link {
+                display: none;
+
+            }
+            .video-1 {
+                width: 300px;
+                height: auto;
+                padding: 10px;
+                border: 5px solid rgb(6, 252, 252);
+               margin: 20px;
+            }
+            .blog-1 {
+                width: 300px;
+    height: auto;
+    border: 5px solid aqua;
+    padding: 10px;
+    margin: 20px;
+    float: unset;
+            }
+            .ptag {
                 display: none;
             }
-            .link-main-page {
-                padding-left: 60px;
-       }
+        }
     </style>
-    <div id="up" class="container">
-        <div class="header">
-            <div class="links" id="my-links">
-                <a id="link-joinus" class="link-text" href="C:\Users\ASUS\Desktop\New folder\webmake.html" target="_blank" rel="noopener noreferrer">Join us</a>
-                <a id="link-domain" class="link-text" href="C:\Users\ASUS\Desktop\New folder\webmake.html" target="_blank" rel="noopener noreferrer">Domain</a>       
-                <a id="link-plans" class="link-text" href="C:\Users\ASUS\Desktop\New folder\webmake.html" target="_blank" rel="noopener noreferrer">Plans</a>
-                <a id="link-image" class="link-text"  href="#" rel="noopener noreferrer">Home</a>
-                <a class="link-main-page" href="https://www.youtube.com/channel/UC234yLaNOcanaN3-pfOOokA" target="_blank" rel="noopener noreferrer"><img class="header-logo" src="logo.png" alt="Home- Skator Tech"></a>
-            </div>
-        </div>
-        <div>
-            <i class='shape12'></i>
-        </div>
-        <video class="video-1" poster="available.png" controls src="C:\Users\ASUS\Videos\Illegal-Weapon.mp4"></video>
-        <a href="https://www.youtube.com/channel/UC234yLaNOcanaN3-pfOOokA" target="_blank" rel="noopener noreferrer"><img class="image-1" src="1200px-YouTube_logo.png" alt=""></a>
-        <video  class="video-2" poster="available.png" controls src="C:\Users\ASUS\Videos\Illegal-Weapon.mp4"></video>
-         <div></div>
-         <video poster="available.png" class="video-3" controls src="C:\Users\ASUS\Videos\Illegal-Weapon.mp4"></video>
-         <a href="https://www.facebook.com/skatortechsolutions" target="_blank" rel="noopener noreferrer"><img class="image-2" src="download.png" alt=""></a>
-         <video poster="available.png" class="video-4" controls src="C:\Users\ASUS\Videos\Desi Da Drum _ Amrit Maan _ Latest Punjabi Song 2015 _ Speed Records_Full-HD.mp4"></video>
+    <! style top nav called join or sign in>
+    <div class="join-or-sign" id="joinus-or-signin">
+        <a href="#" target="_blank" rel="noopener noreferrer"><p id="top-text">Sign in / Join us</p> </a>
+    </div> 
+    <! style header> 
+    <div class="header-below">
         
-           <div class="last-content" id="l-c">
-               <footer class="foot-er" id="f-e">
-                 <p id="text" class="text-footer" >&copy; Skator Tech. All rights reserved.</p>  
-                 <a href="#up"><p class="u-l">^</p></a>
-               </footer>
-            </div>
+    <img class="logo"  id="logo-gif" src="C:\Users\ASUS\Desktop\testing\gif-logo.gif" alt="logo">
+    
+		<a class="link" href="#"><i id="badge" class="far fa-id-badge"></i>Login</a>
+        <a  class="link" href="#"><i id="article" class="far fa-newspaper"></i> Blogs</a>
+        <a class="link" href="#"><i id="video" class="far fa-play-circle"></i> Videos</a>
+        <a id="hom" class="link" href="#"><i id="home" class="fa fa-fw fa-home"></i> Home</a>
+		
+	</div>
 
-         <div>
-      
-</body>
+   
+<video class="video-1" id="video1" controls style="width: 600px; height: auto; padding: 20px; border: 5px solid rgb(6, 252, 252); margin: 20px;" src="C:\Users\ASUS\Videos\Illegal-Weapon.mp4"></video>
+<img class="blog-1" id="blog1" style="width: 500px; height: auto; border: 5px solid aqua; padding: 20px; margin: 20px; float: right; " src="C:\Users\ASUS\Downloads\hacking.png" alt="article">
+
+<p class="ptag" style="color: white; margin: 20px; font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Skator Tech-</p>
+<p class="ptag" style="color: white; margin: 20px; font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; position: absolute; margin-left: 999px; margin-top: 0%;"> Skator Tech-</p>
+
+<p class="ptag" style="color: white; margin: 20px; font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">   Title:- How to Watch & Download Free Movies online.</p>
+<p style="color: white; float: right; text-align: center; margin-left: 990px; margin-right: 20px; margin-top: 0%;font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;word-spacing: 3px;">
+    # Hello! everyone in this article i well tell you how to start hacking.
+     So let' start. There are 4 steps to become an ethical hacker. 
+     Step 1:- Learn basic like about Pc devices, phone, CMD, formating etc. 
+     Step 2:- Learn programming coding web development like JS, Bootstrap, HTML, C, C++, Phyton, Java, Jquery etc. 
+     Step 3:- Learn Networking like about protocols, what is internet, how it is works, OIS Model etc. 
+     Step 4:- Now you ready to start learn <strong><b>Ethical Hacking</b></strong>.
+      You should learn hacking from your research. 
+      I recommend some youtube channels below which is best for you & you can also buy some courses online. youtube channels: 
+     <a style="color: rgb(255, 70, 70); text-decoration: underline;" target="_blank" href="https://www.youtube.com/channel/UC3PsooDxvFG0aEBe4JVtAbg">Bitten Tech</a>,
+     <a style="color: rgb(255, 70, 70); text-decoration: underline;" href="https://www.youtube.com/channel/UCYS9sTrPpcIVDxz2yVPbuLw" target="_blank" rel="noopener noreferrer">Tech Chip</a>
+    </p>
+  <video controls style="height: auto; width: 600px; border: aqua 5px solid; margin: 20px; position: absolute;" src="C:\Users\ASUS\Videos\Yaad-Piya-Ki-Aane-Lagi.mp4"></video>
+  <p class="ptag" style="color: white; margin-left: 20px; font-size: 30px; margin-top: 410px; position: absolute; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Skator Tech-</p>
+  <p class="ptag" style="color: white; margin: 20px; font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Title:- How To Get Free Gems In Garena Free Fire.</p>
+     <img style="width: 500px; height: auto; float: right; margin: 20px; padding: 20px; border: solid 5px aqua; " src="C:\Users\ASUS\Downloads\adbp.png" src="C:\Users\ASUS\Downloads\adbp.png" alt="">
+      <p style="color: aliceblue;
+      margin-top: 500px;
+      margin-left: 1000px;
+      font-size: 30px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Skator Tech-</p>
+      <p style="    color: white;
+      float: right;
+      margin-left: 1000px;
+      text-align: center;
+      float: right;
+      margin-right: 20px;
+      margin-top: 0px;
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      word-spacing: 3px;"># Hello! dosto aaj mai apko btaunga ki aap youtube ki add kaise block kar sakte ho. Aap youtube ki ads ko free me block kar sakte ho vaise to youtube premium kharidne se aap ads block kar sakte ho
+          par mai apko aisa app btaunga ki aap free me add block kar sakte ho to chaliye shuru karte hai sabse phle aap apna chrome browser open kariye fir settings me jaye fir aapko vha pur ek Extensions ka 
+        option milega use open kare fir aapko left side me fir se Extensions ka option milega us par click kijie fir left-down side me aapko Open-chrome-web-store ka option milega us par click kijie fir search
+        kijie ad block plus vha pur shayad phla option ayega Adblock plus -free ad blocker use open kare  uske bad add to chrome ka option ayega aage aap khud apki marji se option select kare or add kar de bad me 
+        aapka youtube chla ke dekhe koi bhi ad nhi ayegi, Thanks for reading.  </p>
+    </body>  
 </html>
